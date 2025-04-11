@@ -1,0 +1,128 @@
+export const mockUsers = [
+  {
+    id: "1",
+    mobileNumber: "9876543210",
+    role: "user",
+    username: "John Doe",
+    email: "john@example.com",
+    carCompany: "Toyota",
+    carModel: "Camry",
+  },
+  {
+    id: "2",
+    mobileNumber: "9876543211",
+    role: "mechanic",
+    username: "Mike Smith",
+    email: "mike@example.com",
+    shopName: "Quick Fix Auto",
+    rating: 4.8,
+  },
+  {
+    id: "3",
+    mobileNumber: "9876543212",
+    role: "petrolpump",
+    username: "City Fuel",
+    email: "cityfuel@example.com",
+    location: "123 Main St",
+    rating: 4.7,
+  },
+  {
+    id: "4",
+    mobileNumber: "9876543213",
+    role: "hospital",
+    username: "City Hospital",
+    email: "cityhospital@example.com",
+    location: "456 Health Ave",
+    rating: 4.9,
+  },
+];
+
+export const mockServices = [
+  {
+    id: "1",
+    type: "mechanic",
+    name: "Quick Fix Auto",
+    distance: "0.8 miles",
+    rating: 4.8,
+    eta: "10 min",
+    location: "123 Main St",
+    services: ["Tire Change", "Battery Jump", "Oil Change"],
+    isAvailable: true,
+  },
+  {
+    id: "2",
+    type: "towing",
+    name: "Rapid Towing Inc.",
+    distance: "1.2 miles",
+    rating: 4.6,
+    eta: "15 min",
+    location: "456 Service Rd",
+    services: ["24/7 Towing", "Flatbed Service"],
+    isAvailable: true,
+  },
+  {
+    id: "3",
+    type: "fuel",
+    name: "City Fuel Delivery",
+    distance: "2.5 miles",
+    rating: 4.7,
+    eta: "20 min",
+    location: "789 Fuel Ave",
+    services: ["Petrol", "Diesel"],
+    isAvailable: true,
+  },
+];
+
+export const mockHistory = [
+  {
+    id: "1",
+    date: "May 15, 2023",
+    service: "Towing Service",
+    provider: "Quick Tow Inc.",
+    status: "Completed",
+    cost: "₹50",
+    rating: 5,
+  },
+  {
+    id: "2",
+    date: "March 3, 2023",
+    service: "Flat Tire Repair",
+    provider: "Mobile Mechanics",
+    status: "Completed",
+    cost: "₹30",
+    rating: 4,
+  },
+  {
+    id: "3",
+    date: "January 22, 2023",
+    service: "Battery Jump Start",
+    provider: "Emergency Roadside Co.",
+    status: "Completed",
+    cost: "₹25",
+    rating: 5,
+  },
+];
+
+export const mockNotifications = [
+  {
+    id: "1",
+    title: "Service Request Accepted",
+    message: "Your mechanic service request has been accepted",
+    timestamp: "5 minutes ago",
+    read: false,
+  },
+  {
+    id: "2",
+    title: "Service Completed",
+    message: "Your towing service has been completed",
+    timestamp: "2 hours ago",
+    read: true,
+  },
+  {
+    id: "3",
+    title: "New Reward",
+    message: "You've earned 100 points for your last service",
+    timestamp: "1 day ago",
+    read: true,
+  },
+]; 
